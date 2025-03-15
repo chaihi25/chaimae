@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COSMETIQUE</title>
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <nav class="navbar">
+      <h1>Magasin de cosmétique</h1>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#product">PRODUIT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+           
+          <header id="home" class="hero">
+            <h2>Découvrez les derniers produit cosmétique</h2>
+            <p>Des designs de heute quallité et uniques pour tous les goúts</p>
+             <a href="#products" class="btn">Achetez Maintenant!</a>
+          </header>
+          <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Recherchez sur le produit...">
+          </div>
+
+          <section id="#products" class="products-section">
+            <h2>Notre produit spéciale</h2>
+            <div class="product-container">
+
+              <div class="product-card">
+                <img src="8598944870f25999f89ac41efa5b7bda.jpg" loading="lazy" alt="parfum luxe">
+                <h3>Parfum Luxe</h3>
+                <p>Bouteille de parfum au design luxe, disponibles en petites et moyennes tailles.</p>
+                <button>Commandez Maintenant</button>
+              </div>
+
+              <div class="product-card">
+                <img src="d2886416025c0b36fcd37a584e40ea0f.jpg" loading="lazy" alt="Huile cosmétique">
+                <h3>Huile cosmétique ARGAN</h3>
+                <p>Donne de l'eclat á la peau</p>
+                <button>Commandez Maintenant</button>
+              </div>
+
+              <div class="product-card">
+                <img src="dcf8f1d99237d70f11f9a8e3cc3d250e.jpg" loading="lazy" alt="sérum">
+                <h3>Sérum visage et peau</h3>
+                <p>Hydratation et Eclaratio du peau</p>
+                <button>Commandez Maintenant</button>
+
+              </div>
+            </div>
+
+            <div id="productModal" class="modal">
+              <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+              </div>
+            </div>
+
+
+          </section>
+           <footer id="contact" class="footer">
+            <p id="copyright"></p>
+            <p>Contactez-nous: 
+              ch.h2025@gmail.com</p>
+
+           </footer>
+           
+           <script src="script.js"></script>
+</body>
+</html>
